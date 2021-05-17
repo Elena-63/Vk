@@ -8,8 +8,16 @@ public class Post {
     private int ownerSpaceUserId;
     private int wroteUserId;
     private int date;
+
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
     private boolean canEdit;
     private boolean canDelete;
+    private boolean canPin;
+    private boolean IsPinned;
+
     private LikesInfo likesInfo;
     private CommentsInfo commentsInfo;
     private Repostinfo repostinfo;
